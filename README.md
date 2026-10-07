@@ -19,3 +19,10 @@
 ```
 python -m http.server 8770 --directory .
 ```
+
+## 배포
+- 주소: https://grow-lab.co.kr (www는 자동으로 이 주소로 이동)
+- 저장소: https://github.com/rkzm211/grow-lab (`main` 브랜치)
+- `main`에 push하면 GitHub Pages가 1~2분 안에 자동으로 반영
+- 도메인 DNS: 가비아 (A 레코드 4개 → 185.199.108~111.153, www CNAME → rkzm211.github.io.)
+- 검색 등록: 네이버 서치어드바이저, 구글 서치콘솔 (소유확인 태그는 index.html `<head>`에 있음, 지우지 말 것)
